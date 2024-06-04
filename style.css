@@ -1,0 +1,199 @@
+
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: white;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: rgb(10, 9, 9);
+    }
+    
+    .navbar {
+        background-color: skyblue;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+    
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    .navbar li {
+        float: left;
+    }
+    
+    .navbar li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .navbar li a:hover {
+        background-color: lightblue;
+    }
+    
+    /* Add some space to the top of the page to make room for the fixed navbar */
+    .content {
+        margin-top: 60px; /* Adjust as needed */
+    }
+    
+    /* Placeholder styles for sections */
+    section { /* Adjust as needed */
+        background-color: #000000;
+        text-align: center;
+        padding-bottom: 30px;
+        
+    }
+    #skill{
+        padding-bottom: 50px;
+    }
+    .more{
+        margin-left: 48vw;
+        text-align: center;
+        border: 5px solid rgb(242, 219, 70);
+        border-radius: 7px;
+        background-color: rgb(242, 219, 70);
+        width: 100px;
+    }
+    .more:hover {
+        background-color: rgb(166, 166, 246);
+        color: blue;
+        padding: 5px;
+        border: 5px solid rgb(166, 166, 246);
+        transition-duration: 0.5s;   
+        margin-left: 47vw;
+    }
+    
+    .frntcontainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        color: white;
+    }
+    
+    .left-side {
+        width: 50%;
+        padding: 20px;
+    }
+    
+    .right-side {
+        width: 50%;
+        padding: 20px;
+    }
+    
+    .profile-image {
+        margin-top: 400;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .container {
+        
+        justify-content: space-between;
+        margin: 50px auto;
+        max-width: 1200px;
+    }
+
+    .project {
+        flex: 1;
+        padding: 20px;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+    }
+
+    .project:hover {
+        background-color: #000000;
+    }
+    .project h2 {
+        text-align: center;
+        margin-top: 0;
+        color: #007bff;
+    }
+    .robotic-arm {
+        background-color: #ffc107;
+    }
+    .solar-charging {
+        background-color: #28a745;
+    }
+    .energy-management {
+        background-color: #dc3545;
+    }
+    
+    #skill{
+        background-color: rgb(10, 9, 9);
+
+    }
+/* Center the skills heading */
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Arrange skill items using flexbox */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(10, 9, 9);
+
+}
+
+.skill-item {
+    background-color: #9bce1a;
+    max-height: 20px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    /* Add more styling as needed */
+}
+.expcontainer {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.experience {
+    width: 100%;
+    background-color: #476c7e;
+    color: #29b498;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(12, 12, 12, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.experience:hover {
+    transform: translateY(-5px);
+}
+
+.experience h2 {
+    text-align: center;
+}
+
+.experience p {
+    color: black;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.conl{
+    justify-content: space-between;
+    padding: 10px;
+}
